@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <radialGradient id="ballGrad" cx="35%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#fde047" />
+      <stop offset="50%" stop-color="#eab308" />
+      <stop offset="100%" stop-color="#ca8a04" />
+    </radialGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fde047" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#ca8a04" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+  <rect width="100" height="100" rx="22" fill="#0f172a"/>
+  <!-- Ambient glow -->
+  <circle cx="50" cy="50" r="42" fill="url(#glow)"/>
+  <!-- Lottery Ball -->
+  <circle cx="50" cy="50" r="34" fill="url(#ballGrad)" stroke="#fef08a" stroke-width="1.5"/>
+  <!-- White Inner Badge -->
+  <circle cx="50" cy="50" r="19" fill="#ffffff" opacity="0.95"/>
+  <!-- Number 6 -->
+  <text x="50" y="58" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="24" font-weight="900" fill="#0f172a" text-anchor="middle">6</text>
+  <!-- Sparkles -->
+  <circle cx="78" cy="24" r="3" fill="#fde047"/>
+  <circle cx="24" cy="74" r="2.5" fill="#fde047"/>
+</svg>

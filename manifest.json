@@ -1,0 +1,16 @@
+{
+  "name": "Controlar Boleta Quini 6 y Resultados Oficiales",
+  "short_name": "Quini 6",
+  "description": "Controlá tu boleta de Quini 6 al instante: Tradicional, La Segunda, Revancha y Siempre Sale. Resultados actualizados y números ganadores.",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#ca8a04",
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
